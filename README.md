@@ -34,7 +34,7 @@ uv pip install -r requirements.txt
 3. Usage
 Run the script from your terminal, providing the service account key, source bucket/file, and destination bucket/file as arguments.
 
-# Example command to copy 'whale_video.mp4' to a new file named '2.mp4'
+# Example command to copy 'whale_video.mp4' in bucket named transcode-preprocessing to a new file named '2.mp4' in bucket named transcode-postprocessing-bucket.
 ```Bash
 ./copy_gcs_file.py \
   -k gcs-key.json \
